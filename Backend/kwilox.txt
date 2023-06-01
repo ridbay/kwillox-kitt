@@ -1,0 +1,45 @@
+Kwilox is a relaxation center located in Abeokuta, Ogun State. It is known for
+selling expensive drinks and confectionery. Create an API endpoint for the
+following cases
+
+Users:
+1. Can register with the following data Phone Number, Age, Email, First Name,
+Last Name and Password
+   -when creating a user we need few things
+   1. Model using shema for MongoDB
+   2. controller to create the user by catching some errors
+      2.1 create user usng routes
+      2.2 check if email exist using controller
+      2.3 hash the Password
+      2.4 store the data in MongoDB
+      2.5 return msg to the user
+2. Can log in using your Email address and Password
+3. Can see all available items (drinks and confectionery) uploaded by Admin.
+
+Admin:
+• Can see all registered users
+• Can search for users using their email addresses.
+• Can post a list of available items (drinks and confectionery) so users logged in
+can see
+
+list of drinks
+Bear           fruit Juice        Soft-drins         Water
+Gulder         sharpman           coca-cola          Bottle
+smearnof ice   fruit zobo         Fanta              sachet
+333            5alive             pepsi             
+star           popiyo             Lemonade           
+Goldenberg     Holandia           Limpton         
+
+
+Mode of Submission
+1. Push your codebase to a public version control repository e.g., GitHub or
+GitLab (ensure you use a good commit message pattern)
+2. Document your API using postman and publish it.
+3. Include the link of your published documentation in your readme.md file
+
+Technologies to be Used: NodeJs, Express, MongoDB
+
+
+solution
+1. user can registered
+2. user can login
