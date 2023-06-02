@@ -3,6 +3,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Front-end image
+![Kwilox dashboard](https://github.com/feistymilady01/Kwillox_Alx_project/blob/master/kwilox1.jpg)
+
+![Kwilox user page](https://github.com/feistymilady01/Kwillox_Alx_project/blob/master/kwillox2.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
