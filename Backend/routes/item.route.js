@@ -1,8 +1,8 @@
 const itemController = require("../controller/item.controller");
 const { check, quaram, query } = require("express-validator");
-const validate_request = require("../middlewear/validate.request");
-const validateAuthentification = require("../middlewear/validateAuthentication");
-const validateAdmin = require("../middlewear/validate.admin");
+const validate_request = require("../middleware/validateRequests");
+const validateAuthentification = require("../middleware/validateAuthentication");
+const validateAdmin = require("../middleware/validateAdminRole");
 
 module.exports = function (app) {
   app.post(
