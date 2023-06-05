@@ -1,8 +1,8 @@
-const userController = require("../controllers/user.controller");
+const userController = require("../controller/user.controller");
 const { check, param, query } = require("express-validator");
-const validateRequests = require("../middleware/validateRequests");
+const validateRequests = require("../middleware/validate.request");
 const validateAuthentication = require("../middleware/validateAuthentication");
-const validateAdminRole = require("../middleware/validateAdminRole");
+const validateAdminRole = require("../middleware/validate.adminRole");
 module.exports = function (app) {
   app.get(
     "/users",

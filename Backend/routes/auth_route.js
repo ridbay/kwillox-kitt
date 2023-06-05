@@ -1,6 +1,6 @@
 const { check, param, query } = require("express-validator");
 const authcontroller = require("../controller/auth_controller");
-const validationRequest = require("../middlewear/validate_request");
+const validationRequest = require("../middlewear/validate.request");
 
 module.exports = function (app) {
   app.post(
