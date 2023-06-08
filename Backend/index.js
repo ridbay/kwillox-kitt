@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require('cors');
 require("dotenv/config");
 const authRoutes = require("./routes/user.route");
 const itemRoute = require("./routes/item.route");
@@ -11,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 1111;
 //connect to mongodb
 const MONGO_URI = process.env.MONGO_URI;
-
+app.use(cors());
 //Middlewear Body parse request of content-type application/JSON
 app.use(express.json());
 
